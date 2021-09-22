@@ -23,9 +23,10 @@ namespace MediatorPattern
 
         public void SendMessage(string message)
         {
-            Console.WriteLine("\n\n------Mesajı Gönderen------");
-            Console.WriteLine();
-            Console.WriteLine("Gönderen: "+ this.name +"\nKullanıcı Tipi: Basic\nMesaj: "+message+"\n");
+            Console.WriteLine("--------------Bir mesaj gönderildi..----------------");
+            Console.WriteLine("|\n\n------Mesajı Gönderen------");
+            Console.WriteLine("|");
+            Console.WriteLine("|Gönderen: "+ this.name +"\nKullanıcı Tipi: Basic\nMesaj: "+message+"\n");
             chatMediator.SendMessage(message,this);
         }
     }

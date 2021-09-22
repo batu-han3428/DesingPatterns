@@ -20,7 +20,7 @@ namespace MediatorPattern
 
         public void SendMessage(string message, IUser sender)
         {
-            Console.WriteLine("\n\n------Mesajı Alanlar------\n");
+            Console.WriteLine("|\n|\n------Mesajı Alanlar------\n");
             foreach (var item in users)
             {
                 if (item != sender)

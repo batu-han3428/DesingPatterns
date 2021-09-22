@@ -19,7 +19,7 @@ namespace ObserverPattern
             kitap.takipListesi.Add(ali);
             
 
-            kitap.Fiyat = 30;
+            kitap.Fiyat = 60;
         }
     }
 }

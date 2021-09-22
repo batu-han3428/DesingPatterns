@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{C0998B8D-48A2-4C72-AD06-70A1DEC9254C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{C0998B8D-48A2-4C72-AD06-70A1DEC9254C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{549E1549-CC78-465A-80D9-26CA1792A02F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{549E1549-CC78-465A-80D9-26CA1792A02F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyPattern", "PropertyPattern\PropertyPattern.csproj", "{B5DABDDF-CF02-4BED-9FFB-0980E66F4584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyPattern", "PropertyPattern\PropertyPattern.csproj", "{B5DABDDF-CF02-4BED-9FFB-0980E66F4584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalBuilder", "CreationalBuilder\CreationalBuilder.csproj", "{B63ABB02-088B-4999-9EC9-9DD4612CC047}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreationalBuilder", "CreationalBuilder\CreationalBuilder.csproj", "{B63ABB02-088B-4999-9EC9-9DD4612CC047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructerAdapterPattern", "StructerAdapterPattern\StructerAdapterPattern.csproj", "{CA65B199-C0C8-4588-9B62-7BC2971BAB60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B63ABB02-088B-4999-9EC9-9DD4612CC047}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B63ABB02-088B-4999-9EC9-9DD4612CC047}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B63ABB02-088B-4999-9EC9-9DD4612CC047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA65B199-C0C8-4588-9B62-7BC2971BAB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA65B199-C0C8-4588-9B62-7BC2971BAB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA65B199-C0C8-4588-9B62-7BC2971BAB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA65B199-C0C8-4588-9B62-7BC2971BAB60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
